@@ -1,0 +1,492 @@
+@import './fonts/fonts.css';
+
+h1{
+    margin: 0 0 100px 0;
+    font-size: 36px;
+    letter-spacing: 5px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+h2{
+    font-weight: bold;
+}
+body{
+    position: absolute;
+    margin: 0 0 0 300px;
+    max-width: 1280px;
+    font-family: "Gotham Rounded";
+}
+.header{
+    position: absolute;
+    width: 100%;
+}
+.headerLocation{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-left: 16px;
+}
+.headerSize{
+    max-width: 764px;
+    width: 100%;
+}
+.headerMenu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.headerMenuItem{
+    font-size: 16px;
+    letter-spacing: 2px;
+    color: white;
+    font-weight: bold;
+}
+.first{
+    max-height: 748px;
+    background-image: url(./img/background.png);
+    min-height: 100%;
+    background-size: 100% 100%;
+}
+.firstLocation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.firstText{
+    margin: 0 0 165px 0;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 2px;
+}
+.firstAddingText{
+    margin: 0 0 25px 0;
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: lowercase;
+}
+.firstTitle{
+    margin: 0 0 6px 0;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+.firstButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 0 167px;
+    width: 166px;
+    height: 50px;
+    background-color: #16a085;
+    color: white;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+}
+.firstNetworks{
+    position:absolute;
+    margin: 450px 0 0 0;
+}
+.flicker{
+    margin: 0 13px 0 13px;
+}
+.second{
+    min-width: 100%;
+    background-image: url(./img/background2.png);
+    background-size: 100% 494px;
+    height: 494px;
+}
+.secondSize{
+    max-width: 1280px;
+    position: relative;
+    margin: 0 auto;
+}
+.secondLocation{
+    margin: 0 0 0 128px;
+    display: flex;
+    height: 494px;
+}
+.secondText{
+    max-width: 390px;
+    text-transform: uppercase;
+    margin: 108px 0 0 0;
+    font-size: 18px;
+    letter-spacing: 3px;
+    color: #16a085;
+}
+.secondAddingText{
+    margin: 38px 0 0 0;
+    font-weight: normal;
+    width: 513px;
+    font-size: 12px;
+    letter-spacing: 2px;
+    line-height: 24px;
+    color: #373737;
+}
+.secondButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 43px 0 0 0;
+    width: 192px;
+    height: 51px;
+    background-color: #16a085;
+    color: white;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.secondBoldText{
+    font-weight: bold;
+}
+.textboldsecond{
+    font-weight: bold;
+}
+.secondPhone{
+    position:absolute;
+    margin: 90px 0 0 321px;
+}
+.third{
+    position: relative;
+    background-image: url(./img/background3.png);
+    background-size: 100% 558px;
+    height: 558px;
+    display: flex;   
+}
+.thirdLocation{
+    min-width: 1280px;
+    margin: 0px 0 0 47px;
+}
+.thirdSize{
+    max-width: 1280px;
+    margin: 0 0 0 100px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    height: 558px;
+}
+.thirdRightPart{
+    margin: 0 0 0 620px;
+    font-weight: bold;
+    position:absolute;
+}
+.thirdRightPartText{
+    margin: 145px 0 0 0;
+    font-size: 18px;
+    letter-spacing: 3px;
+    line-height: 22px;
+    color: #16a085;
+    text-transform: uppercase;
+}
+.thirdRightPartAddingText{
+    margin: 33px 0 35px 0;
+    font-size: 12px;
+    letter-spacing: 2px;
+    line-height: 22px;
+    color: #373737;
+    font-weight: normal;
+}
+.thirdButton{
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 30px 0;
+    width: 192px;
+    height: 51px;
+    background-color: #16a085;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.thirdRightPartNumbers{
+    margin: 0 0 -10px 0;
+    font-size: 12px;
+    letter-spacing: 2px;
+    line-height: 22px;
+    color: #373737;
+    display: flex;
+    font-weight: bold;
+}
+.arrow1{
+    margin: 0 0 0 0;
+}
+.arrow2{
+    margin: 0 0 0 17px;
+}
+.forth{
+    display: flex;
+    position: relative;
+    background-image: url(./img/gray.png);
+    background-size: 100% 483px;
+    height: 483px;
+    margin: 0 0 0 0;
+}
+.forthSize{
+    min-width: 1280px;
+    margin: 0 0 0 0;
+}
+.forthLocation{
+    max-width: 1280px;
+    margin: 0 0 0 0;
+    padding: 0 128px;
+    display: flex;
+    position: relative;
+    height: 483px;
+}
+.column
+{
+    flex-direction: row;
+}
+.forthCamera{
+    margin: 168px 0 0 58px;
+}
+.forthText{
+    font-weight: bold;
+    margin: 20px 0 0 0;
+    font-size: 16px;
+    letter-spacing: 2px;
+    line-height: 20px;
+    color: #373737;
+    text-transform: uppercase;
+}
+.forthAddingText{
+    width: 177px;
+    font-size: 10px;
+    letter-spacing: 2px;
+    color: #373737;
+    text-align: center;
+    margin: 20px 0 0 0;
+    font-weight: 550;
+    
+}
+.forthPhotos{
+    display: flex;
+    align-items: center;
+}
+.forthBus{
+    max-width: 370px;
+    position: absolute;
+    right: 528px;
+}
+.forhtLeafs{
+    max-width: 370px;
+    position: absolute;
+    right: 128px;
+}
+.forthArrows{
+    padding-top: 93px;
+}
+.forthLeftArrow{
+    position: absolute;
+    right: 153px;
+}
+.forthRightArrow{
+    position: absolute;
+    right: 128px;
+}
+.fifth{
+    max-height: 790px;
+    display: flex;
+    position: relative;
+    background-image: url(./img/phonebackground.png);
+    background-size: 100% 100%;
+    height: 100vh;
+    align-items: center;
+}
+.fifthLocation{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    
+}
+.fifthText{
+    margin: 22px 0 -10px 0;
+    font-size: 24px;
+    letter-spacing: 4px;
+    color: white;
+    text-transform: uppercase;
+}
+.fifthRow{
+    margin-top: 35px;
+    display: flex;
+    flex-direction: row;
+}
+.fifthEmailField{
+    width: 278px;
+    height: 60px;
+    border-top-left-radius:3px;
+    border-bottom-left-radius:3px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0 0 0 0;
+    border: 0px;
+}
+.fifthButton{
+    width: 62px;
+    height: 63px;
+    border-top-right-radius:3px;
+    border-bottom-right-radius:3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 2px 0 0;
+    background-color: #16a085;   
+}
+.sixth{
+    height: 396px;
+    display: flex;
+    position: relative;
+    background-image: url(./img/gray.png);
+}
+.sixthLocation{
+    width: 1280px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    text-transform: uppercase;
+}
+.sixthText{
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: #373737;
+    margin: 92px 0 -16px 0;
+}
+.sixthAddingText{
+    text-align: center;
+    width: 877px;
+    font-size: 12px;
+    letter-spacing: 2px;
+    line-height: 22px;
+    color: #373737;
+    margin-top: 18px;
+    
+}
+.sixthApple1{
+    margin: 0 0 0 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1abc9c;
+    text-decoration: none;
+    width: 240px;
+    height: 56px;
+    color: white;
+}
+.sixthPlay1{
+    margin: 0 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1abc9c;
+    text-decoration: none;
+    width: 240px;
+    height: 56px;
+    color: white;
+}
+.sixthRow{
+    margin: 29px 0 0 0;
+    font-size: 16px;
+    letter-spacing: 2px;
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+}
+.sixthApple2{
+    margin: 0 26px 0 0;
+    border-top-right-radius:3px;
+    border-bottom-right-radius:3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 56px;
+    height: 56px;
+    background-color: #16a085; 
+}
+.sixthPlay2{
+    margin-right: 15px;
+    border-top-right-radius:3px;
+    border-bottom-right-radius:3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 56px;
+    height: 56px;
+    background-color: #16a085;
+}
+.footer{
+    background-color:white;
+    height: 131px;
+}
+.footerLocation{
+    display: flex;
+    align-items: center;
+    height: 131px;
+    position: relative;
+}
+.footerSize{
+    margin: 0 0 0 70px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: #373737;
+    font-weight: bold;
+}
+.footerMenuItem1{
+    margin: 0 10px 0 0;
+}
+.footerMenuItem2{
+    margin: 0 10px 0 10px;
+}
+.footerMenuItem3{
+    margin: 0 0 0 10px;
+}
+.footerSlash{
+   color: #16a085;
+}
+.footerAddingText{
+    margin: 20px 0 0 0;
+}
+.footerMenu{
+    display: flex;
+}
+.footercamera{
+    position:absolute;
+    right: 128px;
+}
+
+
+
+.headerMenuItem:hover, .footerMenuItem1:hover, .footerMenuItem2:hover, .footerMenuItem3:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.firstButton:hover, .secondButton:hover, .thirdButton:hover, .fifthButton:hover, .sixthApple1:hover, .sixthApple2:hover, .sixthPlay1:hover, .sixthPlay2:hover{
+    cursor: pointer;
+    background-color: purple;
+}
+
+.firstButton:active, .secondButton:active, .thirdButton:active, .fifthButton:active, .sixthApple1:active, .sixthApple2:active, .sixthPlay1:active, .sixthPlay2:active{
+    cursor: pointer;
+    background-color: gray;
+}
+
+.twitter:hover, .dribble:hover, .flicker:hover{
+    transform: scale(2);
+}
+
+.arrow1:hover, .arrow2:hover, .forthLeftArrow:hover, .forthRightArrow:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+}
